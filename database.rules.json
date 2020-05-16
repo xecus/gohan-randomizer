@@ -1,0 +1,6 @@
+{
+  "rules": {
+    ".read": "auth != null && auth.provider == 'google' && auth.token.email_verified == true",
+    ".write": "auth != null && auth.provider == 'google' && auth.token.email_verified == true"
+  }
+}

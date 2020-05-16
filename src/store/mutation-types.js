@@ -1,0 +1,2 @@
+export const SET_LOADING_STATUS = 'SET_LOADING_STATUS'
+export const SET_LOGIN_USER = 'SET_LOGIN_USER'
