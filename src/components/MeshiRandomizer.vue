@@ -46,7 +46,9 @@
              <!-- <v-list-item-avatar tile size="80" color="grey"></v-list-item-avatar> -->
            </v-list-item>
          <v-card-text>
-           {{ msg }}
+           <div class="text-center">
+             <span class="pink--text display-1">{{ msg }} </span>
+           </div>
          </v-card-text>
          <v-card-actions>
            <v-btn text @click="doRandomize" :disabled="!isLoaded">
